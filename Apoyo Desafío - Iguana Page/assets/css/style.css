@@ -1,0 +1,85 @@
+body {
+    background-color:black;
+    margin: 0;
+    padding: 0;
+    color:#ffff;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 500;
+    background-color: black;
+}
+
+.section-description{
+    padding: 1.5rem 0;
+    margin: 5rem 0;
+}
+
+.centrar{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.texto_section-desc{
+    width: 50%;
+    font-size: 1rem;
+}
+.img_section-desc{
+    width:35%;
+    padding-left: 1rem;
+}
+
+.texto_section-desc, .img_section-desc{
+    display: inline-block;
+    vertical-align: middle;
+}
+/*Inicio Seccion Iconos*/
+
+.section-icon{
+    background-color: #1e1a13;
+    padding: 3.5rem 0;
+    text-align:center;
+    font-weight: 400;
+    
+}
+
+/*Inicio Alineacion de Iconos y Textos*/
+
+.centrar, h2{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.centrar article {
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    width: 30%;
+}
+article, p{
+    margin-top: 1rem;
+}
+/*Inicio seccion tres imagenes*/
+
+.section-img{
+   padding: 5rem;
+   margin: 5rem 0; 
+}
+.centrar_img{
+    display: inline-block;
+    width: 30%;
+    margin: 0 0.5rem; 
+}
+.centrar_img img{
+    width: 100%;
+    height: 10rem;
+    margin: 0 2rem;
+}
+footer{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 3rem 0;
+    background-color: #1e1a13;
+}
